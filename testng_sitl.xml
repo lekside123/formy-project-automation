@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DBS Sanity Test Suite">
+<listeners>
+<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+<listener class-name="com.DBS.utilities.CustomLogging"/>
+</listeners>
+<parameter name="browser" value="internet-explorer">
+<!--<parameter name="browser" value="firefox">-->
+</parameter>
+
+
+<test name="Basic Sanity">
+<classes>
+
+<class name="Drop8.Test.Fee_MaintainacePMS"/>
+<!-- class name="Drop8.Test.SubmitChequePMS"/> -->
+<class name="KMPortal.test.KMPortalFileUpload"/>
+<class name="KMPortal.test.RoleMapping"/>
+<class name="Drop8.Test.UnbilledTransactionPMS"/>
+<class name="KMPortal.test.AdminLinks"/>
+
+        
+</classes>
+</test>          
+					
+         
+
+</suite> 

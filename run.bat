@@ -1,0 +1,1 @@
+Java –cp C:\Users\User\Documents\Williams\Jenkins\bin\com\leke\jenkins;C:\Users\User\Documents\Williams\Jenkins\lib\* org.testng.TestNG C:\Users\User\Documents\Williams\Jenkins\testng.xml
